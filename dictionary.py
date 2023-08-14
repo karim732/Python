@@ -1,4 +1,4 @@
-def func(key, value, d):
+def func(key, value, d=None):
     d[key]=value
     print(d)
 
